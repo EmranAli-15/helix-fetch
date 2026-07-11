@@ -1,0 +1,23 @@
+{
+  "name": "helix-fetch",
+  "version": "1.0.1",
+  "description": "A lightweight, framework-independent TypeScript library designed for efficient front-end data fetching and caching. By creating an instance, it provides query and mutation function with all essential properties. And inside the instance you can provide base url and token function instead writing everywhere.",
+  "license": "MIT",
+  "author": "Md. Emran Ali",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "keywords": [
+    "helix-fetch",
+    "cache",
+    "caching library",
+    "fetch"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}
